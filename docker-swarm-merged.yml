@@ -37,8 +37,8 @@ services:
     networks:
       tyk: null
     ports:
-    - published: ${GW_PORT}
-      target: ${GW_PORT}
+    - published: 12542
+      target: 8080
   tyk-pump:
     configs:
     - source: tyk_pump
